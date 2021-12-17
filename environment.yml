@@ -68,6 +68,7 @@ dependencies:
   - rioxarray=0.7.0
   - missingno=0.4.2
   - kneed=0.7.0
+  - folium=0.12.1
   - pip:
       - us==2.0.2
       - carto2gpd==1.0.11
