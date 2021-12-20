@@ -1,6 +1,6 @@
 import sys
 path = sys.argv[1]
-print(path)
+print("HEY", path)
 
 with open(path, 'r') as f:
     contents = f.read()
