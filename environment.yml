@@ -75,5 +75,5 @@ dependencies:
       - esri2gpd==1.0.9
       - osm2gpd==1.0.1
       - webdriver_manager==3.4.2
-      - git+https://github.com/nickhand/jupyter-panel-proxy@main
+      - git+https://github.com/nickhand/jupyter-panel-proxy
       - jupyter-server-proxy==3.1.0
