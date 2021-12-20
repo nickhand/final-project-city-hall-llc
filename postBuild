@@ -1,4 +1,0 @@
-path=$(find / -xdev -path "*/jupyter_server_proxy/handlers.py" 2>/dev/null)
-echo $path
-python adjust_timeout.py $path
-cat $path | grep request_timeout

@@ -68,12 +68,12 @@ dependencies:
   - rioxarray=0.7.0
   - missingno=0.4.2
   - kneed=0.7.0
-  
+
   - pip:
       - us==2.0.2
       - carto2gpd==1.0.8
       - esri2gpd==1.0.9
       - osm2gpd==1.0.1
       - webdriver_manager==3.4.2
-      - jupyter-panel-proxy==0.1.0
+      - git+https://github.com/nickhand/jupyter-panel-proxy@main
       - jupyter-server-proxy==3.1.0
