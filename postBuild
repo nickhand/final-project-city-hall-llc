@@ -1,0 +1,3 @@
+set -ex
+
+python adjust_timeout.py
