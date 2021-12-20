@@ -1,7 +1,5 @@
-import os
-
-conda_prefix = os.environ['CONDA_PREFIX']
-path = f"{conda_prefix}/lib/python3.8/site-packages/jupyter_server_proxy/handlers.py"
+import sys
+path = sys.argv[1]
 print(path)
 
 with open(path, 'r') as f:
